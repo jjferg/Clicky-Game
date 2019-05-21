@@ -3,6 +3,7 @@ import Wrapper from "./components/Wrapper"
 import Img from "../src/components/Img"
 import imgsData from "./imgs.json"
 
+
 class App extends React.Component {
 
   state = {
@@ -29,11 +30,13 @@ class App extends React.Component {
         count: this.state.count + 1,
         imgs: this.shuffle(this.state.imgs),
         clicked: [...this.state.clicked,id]
-      });
+      }, ()=> console.log(this.state.count));
       
     }
-    console.log(this.state.count)
+    
   }
+
+  
   
   shuffle = (imgs) => {
     for(let i = 0; i < imgs.length; i++){
