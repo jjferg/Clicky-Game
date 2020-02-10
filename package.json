@@ -4,15 +4,20 @@
   "private": true,
   "homepage": "https://jjferg.github.io/Clicky-Game/",
   "dependencies": {
+    "gh": "^1.17.5",
     "gh-pages": "^2.0.1",
+    "pages": "0.0.16",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-scripts": "^3.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-    
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
