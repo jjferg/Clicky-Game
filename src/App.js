@@ -16,6 +16,7 @@ class App extends React.Component {
     this.setState({ imgs: imgsData })
   }
 
+// this function just simply handles the tally of guesses
   handleIncrement = (id) => {
     if (this.state.clicked.includes(id)) { // User has clicked this image before
       this.setState({ 
@@ -35,9 +36,6 @@ class App extends React.Component {
     }
     
   }
-
-  
-  
   shuffle = (imgs) => {
     for(let i = 0; i < imgs.length; i++){
       const randNum = Math.floor(Math.random() * imgs.length)
@@ -47,13 +45,11 @@ class App extends React.Component {
     }
     return imgs;
   }
-
   render() {
     return (
       <Wrapper>
         {this.state.imgs.map(imgs => {
-         
-          return (
+         return (
             <Img
               handleIncrement={this.handleIncrement}
               key={imgs.id}
