@@ -3,11 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Img from "../src/components/Img";
 import imgsData from "./imgs.json";
 import Heading from "./components/Heading";
-const styles = {
-  bgStyles: {
-      background: "black"
-  }
-}
+
 
 
 class App extends React.Component {
