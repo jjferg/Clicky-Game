@@ -3,7 +3,7 @@ import "./style.css"
 
 function Img(props) {
   return (
-    <div role="img" className="click-item">
+    <div role="img" className="click-item " >
     <button onClick={()=>props.handleIncrement(props.id)}>
       <div className="card">
         <div className="img-container">

@@ -1,5 +1,4 @@
 .card {
-  
     border-radius: 2px;
     height: 225px;
     position: relative;
@@ -7,17 +6,15 @@
     box-shadow: 0 3px 6px #999, 0 3px 6px #999;
     text-align: left;
   }
-  
-  .card > .img-container {
+  .card   {
     height: 100%;
     overflow: hidden;
     text-align: center;
     background:#6CADDC;
   }
-  .card > .img-container > img {
+  .card img {
     width: 60%
   }
-
   .click-item {
       background-size: cover;
       background-position: 50%;
@@ -26,16 +23,12 @@
       cursor: pointer; 
       padding-bottom: 5px
     }
-
     .click-item * {
       cursor: pointer;
     }
-    
     .card:hover {
       transform: scale(1.1);
     }
-
     button{
-      margin-bottom: 20px;
-      
+      margin-bottom: 10px;
     }

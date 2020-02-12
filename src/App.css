@@ -4,5 +4,6 @@
     background-size: cover;
     background-position: center;
     padding-bottom: 10%;
-  
+    width: 100vw;
+    height: 100vh;
 }
