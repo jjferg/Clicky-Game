@@ -22,8 +22,9 @@
       background-size: cover;
       background-position: 50%;
       margin: 8px 25px;
-      border-radius: 3px;
+     
       cursor: pointer; 
+      padding-bottom: 5px
     }
 
     .click-item * {
@@ -32,4 +33,9 @@
     
     .card:hover {
       transform: scale(1.1);
+    }
+
+    button{
+      margin-bottom: 20px;
+      
     }
