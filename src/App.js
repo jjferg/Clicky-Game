@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Img from "../src/components/Img";
 import imgsData from "./imgs.json";
 import Heading from "./components/Heading";
-
+import "./App.css";
 
 
 class App extends React.Component {
@@ -63,6 +63,7 @@ class App extends React.Component {
   };
   render() {
     return (
+      <div className="container" >
       <Wrapper>
         <Heading heading={this.state.high}>
         <h2>High Score: {this.state.high}</h2>
@@ -80,6 +81,7 @@ class App extends React.Component {
           );
         })}
       </Wrapper>
+      </div>
     );
   }
 }

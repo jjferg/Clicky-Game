@@ -3,7 +3,10 @@
 .jumbotron {
   background: #6caddc;
 }
-
+.container {
+  background: #6caddc;
+}
 h1 {
   color: #fcd80c;
 }
+
