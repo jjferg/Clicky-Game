@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   // this function just simply handles the tally of guesses
-  handleIncrement = id => {
+  handleIncremen = id => {
     if (this.state.clicked.includes(id)) {
       // User has clicked this image before
       this.setState(
@@ -72,7 +72,7 @@ class App extends React.Component {
         {this.state.imgs.map(img => {
           return (
             <Img
-              handleIncrement={this.handleIncrement}
+              handleIncremen={this.handleIncremen}
               key={img.id}
               id={img.id}
               name={img.name}
