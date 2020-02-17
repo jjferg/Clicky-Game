@@ -21,4 +21,5 @@ Try it out  [Clicky Game](https://afternoon-dawn-64528.herokuapp.com/)
 5. After install in the terminal run: NPM install to download all the neccesarry packeges for the app.
 6. Link to [Install Instructions](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
  
+ ## Screen Display
 ![Clicky-Game Demo](images/clicky.png)
