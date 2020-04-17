@@ -1,7 +1,7 @@
 # Clicky-Game
-This is a simple memory game. The goal here is to not click on the same imge twice,  
+This is a simple memory game. The goal here is to not click on the same image twice,  
 before reaching the max. 
-As you click the image your scroe will increment by 0ne.  
+As you click the image your score will increment by 0ne.  
 If you click on the same image, the score will reset.
 Your high score will be displayed until it is surpassed.
 
